@@ -1,0 +1,106 @@
+.nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}
+
+nav ul {
+    display: flex;
+    gap: 46px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.89px;
+}
+
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #435FC4;
+    border-radius: 40px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: .3s;
+}
+
+nav ul li a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.nav-btn button {
+    border: 2px solid #435FC4;
+    background: none;
+    padding: 10px 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    color: #435FC4;
+    border-radius: 8px;
+}
+
+.nav-btn button:hover {
+    color: #fff;
+}
+
+.nav-btn button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #435FC4;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.nav-btn button::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.nav-btn button:hover::before {
+    height: 180%;
+}
+
+@media (max-width: 768px) {
+
+
+    .nav-row {
+        gap: 14px;
+    }
+
+    .nav-row ul li a {
+        font-size: 18px;
+    }
+
+    .nav-btn button {
+        font-size: 16px;
+        padding: 10px 8px;
+    }
+}

@@ -1,0 +1,125 @@
+.header-row {
+    margin-top: 145px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.header-left {
+    width: 630px;
+    position: relative;
+}
+
+.header-left h1 {
+    width: 600px;
+    font-family: Inter;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 89.56px;
+    color: #31312F;
+}
+
+.header-left span {
+    position: absolute;
+    top: 78px;
+    left: 360px;
+}
+
+.header-left p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 24.2px;
+    color: #888785;
+}
+
+.header-left-bottom {
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-card {
+    text-align: right;
+    width: 230px;
+    height: 226px;
+    border-radius: 40px;
+    background: #fff;
+    padding: 24px;
+    position: relative;
+}
+
+.header-card-img img {
+    position: absolute;
+    right: 130px;
+    top: -50px;
+}
+
+.header-card h2 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.57px;
+    text-align: right;
+}
+
+.header-card h3 {
+    margin-top: 28px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36.31px;
+    color: #0063D6;
+}
+
+.header-card p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #000;
+}
+
+.header-card2 {
+    width: 205px;
+    height: 226px;
+    border-radius: 40px;
+    background: #fff;
+    padding: 34px;
+}
+
+.header-card2 h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.73px;
+}
+
+.header-img img {
+    margin-top: -80px;
+    width: 900px;
+    padding-right: 180px;
+}
+
+@media (max-width: 1025px) {
+    .header-img {
+        margin-left: 300px;
+    }
+
+    .header-row {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-img {
+        margin-left: 200px;
+    }
+
+    .header-row {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+}

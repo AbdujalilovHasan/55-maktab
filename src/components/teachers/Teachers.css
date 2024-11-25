@@ -190,3 +190,25 @@
         display: none;
     }
 }
+
+@media (max-width: 426px) {
+    .main h1 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+
+    .teachers-row {
+        gap: 100px;
+    }
+
+    .swiper {
+        justify-content: center;
+        padding-left: 20px;
+        margin-left: 8px;
+        width: 100%;
+    }
+    
+    .section-arrow img {
+        display: none;
+    }
+}

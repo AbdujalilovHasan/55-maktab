@@ -71,7 +71,7 @@ function Students() {
             </div>
           </div>
           <div className="main-right">
-            <p>
+            <p className="subtitle">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Assumenda unde iusto adipisci non dolores a animi neque mollitia
               inventore eum nobis, obcaecati repellat, voluptatibus delectus

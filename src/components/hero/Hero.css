@@ -123,3 +123,36 @@
         flex-direction: column-reverse;
     }
 }
+
+@media (max-width: 426px) {
+    .header-row {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .header-img img {
+        width: 600px;
+        margin-left: 50px;
+    }
+    
+    .header-left h1 {
+        font-size: 30px;
+    }
+
+    .header-left p {
+        width: 500px;
+        font-size: 18px;
+    }
+
+    .header-left span img {
+        position: absolute;
+        top: 78px;
+        left: 0px;
+        width: 150px;
+    }
+
+    .teachers-p {
+        margin-left: -320px;
+    }
+
+}

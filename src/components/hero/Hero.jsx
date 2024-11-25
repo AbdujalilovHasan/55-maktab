@@ -24,7 +24,7 @@ function Hero() {
                             <div className="header-card">
                                 <h2>MALAK-ALI</h2>
                                 <h3>300+</h3>
-                                <p>USTOZLAR</p>
+                                <p className='teachers-p'>USTOZLAR</p>
                                 <div className="header-card-img">
                                     <img src={img2} alt="Ustoz rasmi" />
                                 </div>

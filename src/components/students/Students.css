@@ -195,3 +195,80 @@
         line-height: 22px;
     }
 }
+
+@media (max-width: 426px) {
+    .main h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .main .subtitle {
+        margin-top: -70px;
+        line-height: 20px;
+        width: 370px;
+        font-size: 14px;
+    }
+
+    .main-img img {
+        margin-top: -60px;
+        margin-left: -30px;
+        width: 300px;
+    }
+
+    .main-card1 {
+        width: 80px;
+        height: 70px;
+        top: 134px;
+        left: 190px;
+    }
+
+    .main-card1 h2 {
+        margin-top: -36px;
+        margin-left: -4px;
+        font-size: 18px;
+    }
+
+    .main-card1 p {
+        margin-top: -30px;
+        margin-left: -2px;
+        font-size: 14px;
+    }
+
+    .main-card2 {
+        width: 80px;
+        height: 70px;
+        top: 230px;
+        left: 242px;
+    }
+
+    .main-card2 h2 {
+        margin-top: -40px;
+        margin-left: 4px;
+        font-size: 18px;
+    }
+
+    .main-card2 p {
+        margin-top: -22px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .main-card3 {
+        width: 80px;
+        height: 70px;
+        top: 328px;
+        left: 280px;
+    }
+
+    .main-card3 h2 {
+        margin-top: -40px;
+        margin-left: 2px;
+        font-size: 18px;
+    }
+
+    .main-card3 p {
+        margin-top: -22px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+}

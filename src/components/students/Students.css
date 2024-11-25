@@ -272,3 +272,87 @@
         line-height: 14px;
     }
 }
+
+@media (max-width: 321px) {
+    .main h1 {
+        margin-top: 100px;
+        margin-left: -22px;
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .main .subtitle {
+        margin-left: -22px;
+        margin-top: -70px;
+        line-height: 20px;
+        width: 310px;
+        font-size: 14px;
+    }
+
+    .main-img img {
+        margin-top: -50px;
+        margin-left: -40px;
+        width: 220px;
+    }
+
+    .main-card1 {
+        padding: 0;
+        width: 70px;
+        height: 60px;
+        top: 164px;
+        left: 122px;
+        border-radius: 16px;
+    }
+
+    .main-card1 h2 {
+        margin-top: 0px;
+        margin-left: 2px;
+        font-size: 14px;
+    }
+
+    .main-card1 p {
+        margin-top: -40px;
+        margin-left: 2px;
+        font-size: 10px;
+    }
+
+    .main-card2 {
+        padding: 0;
+        width: 70px;
+        height: 60px;
+        top: 230px;
+        left: 162px;
+        border-radius: 16px;
+    }
+
+    .main-card2 h2 {
+        margin-top: -6px;
+        margin-left: 4px;
+        font-size: 14px;
+    }
+
+    .main-card2 p {
+        margin-top: -28px;
+        font-size: 10px;
+    }
+
+    .main-card3 {
+        padding: 0;
+        width: 70px;
+        height: 60px;
+        top: 300px;
+        left: 190px;
+        border-radius: 16px;
+    }
+
+    .main-card3 h2 {
+        margin-top: -6px;
+        margin-left: 4px;
+        font-size: 14px;
+    }
+
+    .main-card3 p {
+        margin-top: -22px;
+        font-size: 9px;
+    }
+}

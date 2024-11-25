@@ -94,3 +94,12 @@ nav ul li a:hover::after {
     left: 350px;
     z-index: 1050;
 }
+
+@media (max-width: 321px) {
+    .navbar-toggler {
+        position: absolute;
+        top: 40px;
+        left: 230px;
+        z-index: 1050;
+    }
+}

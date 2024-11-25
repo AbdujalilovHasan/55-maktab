@@ -151,8 +151,68 @@
         width: 150px;
     }
 
-    .teachers-p {
+    .teachers-text {
         margin-left: -320px;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .header-row {
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        width: 310px;
+    }
+
+    .header-img img {
+        margin-top: -110px;
+        width: 400px;
+        margin-left: -120px;
+        padding: 0;
+    }
+    
+    .header-left h1 {
+        margin-top: -120px;
+        font-size: 28px;
+        width: 310px;
+        line-height: 34px;
+    }
+
+    .header-left p {
+        width: 300px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .header-left span img {
+        position: absolute;
+        top: -170px;
+        left: -222px;
+        width: 90px;
+    }
+
+    .header-left-bottom {
+        width: 310px;
+        flex-direction: column;
+    }
+
+    .header-card {
+        width: 200px;
+        height: 200px;
+    }
+
+    .header-card-img img {
+        top: -14px;
+        left: -56px;
+        width: 130px;
+    }
+
+    .teachers-text {
+        margin-top: -10px;
+        margin-left: -150px;
     }
 
 }

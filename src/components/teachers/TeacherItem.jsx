@@ -4,7 +4,7 @@ function TeacherItem({ teacherName, position, description, teacherImg, cardImg }
         <div className="teacher-card">
             <div className="teacher-img">
                 <div className="img-teacher">
-                    <img src={teacherImg} alt={`${teacherName} image`} />
+                    <img style={{width: '100px', borderRadius: '20px'}} src={teacherImg} alt={`${teacherName} image`} />
                 </div>
             </div>
             <div className="card-img">

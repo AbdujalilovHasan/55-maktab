@@ -9,11 +9,13 @@ function HomePage() {
   return (
     <Fragment>
       <Navbar />
-      <main>
-        <Hero id="home" />
-        <Students />
-        <Teachers id="teachers" />
-      </main>
+      <div className="container">
+        <main>
+          <Hero id="home" />
+          <Students />
+          <Teachers id="teachers" />
+        </main>
+      </div>
       <Footer id="footer" />
     </Fragment>
   );

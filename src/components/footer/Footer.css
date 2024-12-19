@@ -1,0 +1,88 @@
+footer {
+    background: #435FC4;
+}
+
+.footer-container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin-top: 100px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.addres {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.addres-icon i,
+.telegram-icon i,
+.telephone-icon i {
+    color: #f9f9f9;
+    font-size: 20px;
+}
+
+.addres-text p {
+    margin: 0;
+    font-size: 20px;
+    color: #f9f9f9;
+}
+
+.footer-right {
+    color: #fff;
+}
+
+.telegram,
+.telephone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.telegram-text a,
+.telephone-text a {
+    margin: 0;
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+.telephone-text a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 2px solid #fff !important;
+}
+
+.text-school p {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: #f9f9f9;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo img {
+        align-items: center;
+    }
+}

@@ -1,4 +1,4 @@
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo2.png';
 import './Navbar.css';
 
 function Navbar() {
@@ -10,7 +10,7 @@ function Navbar() {
                 </a>
 
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul className="navbar-nav mx-auto mb-2 mb-lg-0"> {/* Use mx-auto to center */}
+                    <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <a className="nav-link fs-4 fw-bold active" aria-current="page" href="#">
                                 Asosiy
